@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import 'bulma/css/bulma.css'
 
 class Form extends Component {
     initialState = {
@@ -28,6 +29,7 @@ class Form extends Component {
             <form>
                 <label htmlFor="name">Name</label>
                 <input
+                    className="input is-small is-rounded"
                     type="text"
                     name="name"
                     id="name"
@@ -35,12 +37,13 @@ class Form extends Component {
                     onChange={this.handleChange} />
                 <label htmlFor="job">Job</label>
                 <input
+                    className="input is-small"
                     type="text"
                     name="job"
                     id="job"
                     value={job}
                     onChange={this.handleChange} />
-                <input type="button" value="Submit" onClick={this.submitForm} />
+                <input className="button is-dark is-small" type="button" value="Submit" onClick={this.submitForm} />
             </form>
         );
     }
