@@ -22,12 +22,24 @@ header{
   background-color: black;
 }
 
-.extra-large{
+.xxx-large{
   font-size: xxx-large;
+}
+
+.xx-large{
+  font-size: xx-large;
+}
+
+.x-large{
+  font-size: xx-large;
 }
 
 .bold{
   font-weight: bold;
+}
+
+.large{
+  font-size: large;
 }
 
 
