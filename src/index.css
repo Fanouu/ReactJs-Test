@@ -12,3 +12,12 @@ code {
     monospace;
 }
 
+h1.fanxyz{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+header{
+  background-color: black;
+}
