@@ -21,3 +21,13 @@ h1.fanxyz{
 header{
   background-color: black;
 }
+
+.extra-large{
+  font-size: xxx-large;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
